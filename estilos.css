@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f0eb;
+  color: #3e2c23;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #4e342e;
+}
+
+.semestre {
+  border: 2px solid #8d6e63;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 20px 0;
+  background-color: #d7ccc8;
+}
+
+.semestre h2 {
+  margin: 0 0 10px;
+  color: #4e342e;
+}
+
+.ramo {
+  background-color: #efebe9;
+  border: 1px solid #6d4c41;
+  border-radius: 6px;
+  padding: 10px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.ramo button {
+  padding: 5px 10px;
+  background-color: #a1887f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ramo button:disabled {
+  background-color: #d7ccc8;
+  cursor: not-allowed;
+}
+
+.ramo.aprobado {
+  background-color: #a5d6a7;
+  border-color: #388e3c;
+}
